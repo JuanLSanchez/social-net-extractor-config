@@ -1,0 +1,7 @@
+server:
+  port: 8080
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5

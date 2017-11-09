@@ -1,0 +1,14 @@
+server:
+  port: 8091
+socialnetextractor-search-service:
+  api:
+    prefix: /api/v
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: search
+      authentication-database: admin
+      repositories:
+        enabled: true

@@ -5,3 +5,7 @@ eureka:
     leaseRenewalIntervalInSeconds: 10
   client:
     registryFetchIntervalSeconds: 5
+spring:
+  mvc:
+    async:
+      request-timeout: -1 

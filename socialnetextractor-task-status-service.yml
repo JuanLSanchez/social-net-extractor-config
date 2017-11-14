@@ -1,0 +1,19 @@
+server:
+  port: 8092
+socialnetextractor-task-status-service:
+  backward-days: 7
+  max-task-windows-time-in-hours: 12 
+  max-time-to-store-in-hours: 2
+  min-task-windows-time-in-minutes: 10
+  api:
+    prefix: /api/v
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: task
+      authentication-database: admin
+      repositories:
+        enabled: true
+    
